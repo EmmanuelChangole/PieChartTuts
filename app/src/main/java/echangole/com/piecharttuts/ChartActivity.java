@@ -37,6 +37,9 @@ public class ChartActivity extends AppCompatActivity {
         pieChart.setData(pieData);
         pieChart.getDescription().setEnabled(true);
         pieChart.setCenterText("Cost");
+        pieChart.animate();
+
+
 
 
 
